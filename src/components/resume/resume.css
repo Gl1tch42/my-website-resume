@@ -1,0 +1,76 @@
+.content-resume {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont,'Roboto'
+    sans-serif;
+    background-color: #ddff8f;
+    color: #000000;
+    border-radius: 10% 0% 0% 10%;
+    
+}
+.text-box {
+    margin-top: 4em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.first-txt {
+    margin-top: 1em;
+    font-size: 30px;
+    font-weight: bold;
+}
+.regular-txt {
+    margin-top: 1em;
+    font-size: 14px;
+}
+
+
+.hr1 {
+    margin-top: 1em;
+    border: 0;
+    border-top: 1px solid #000000;
+}
+
+
+
+
+.education-title {
+    font-size: 16px;
+}
+
+.component-education {
+    display: flex;
+}
+
+.year {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.education-content {
+    margin-left: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.corse-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.school-title {
+    font-size: 14px;
+    margin-top: 0.5em;
+}
+
+
+
+
+
+
+@media (max-width: 850px){
+    .content-resume {
+      width: 100%;
+      border-radius: 0% 0% 0% 0%;
+    }  
+}
