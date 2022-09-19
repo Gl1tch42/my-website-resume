@@ -1,0 +1,58 @@
+.perfil{
+    font-family: -apple-system, BlinkMacSystemFont,'Roboto'
+    sans-serif;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont,'Roboto'
+    sans-serif;
+}
+
+.img-perfil {
+    border-radius: 50%;
+    width: 10.0296em;
+    height: 9.156em;
+
+    /* width: 5.97em; */
+    /* height: 5.45em; */
+}
+
+.name {
+    margin-top: 1em;
+    font-size: 28px;
+}
+
+.he{
+    font-size: 24px;
+    font-style: italic;
+}
+
+.work-name {
+    margin-top: 0.5em;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.contact-txt {
+    margin-top: 3em;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contact-icons-conteiner {
+    margin-top: 0.3em;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+}
+
+.contact-icons {
+    width: 1em;
+    height: 1em;
+    margin-right: 0.3em;
+    margin-left: 0.3em;
+    color: #ddff8f;
+}
