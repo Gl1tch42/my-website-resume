@@ -9,6 +9,24 @@ let educationList = [
     }
 ];
 
+let jobnList = [
+    {
+        years: "sep 2021-NOW",
+        company: "WIPRO",
+        position: "Software Developer"
+    },
+    {
+        years: "jan 2021-sep 2021",
+        company: "FIRA",
+        position: "Software Developer Intern"
+    },
+    {
+        years: "aug 2020-dez 2020",
+        company: "INTCOM",
+        position: "Software Developer Intern"
+    }
+];
+
 export default function Resume() {
     return (
         <div className="content-resume">
@@ -23,9 +41,9 @@ export default function Resume() {
                     EDUCATION
                 </div>
                 {
-                    educationList.map(e => {
+                    educationList.map((e,index) => {
                         return (<div className="component-education">
-                            <div className="year">
+                            <div index={index} className="year">
                                 {e.years}
                             </div>
                             <div className="education-content">
@@ -39,6 +57,19 @@ export default function Resume() {
                 <div className="education-title">
                     EXPERIENCE
                 </div>
+                {
+                    jobnList.map((e,index) => {
+                        return (<div className="component-education">
+                            <div index={index} className="year">
+                                {e.years}
+                            </div>
+                            <div className="education-content">
+                                <div className="corse-title">{e.company}</div>
+                                <div className="school-title">{e.position}</div>
+                            </div>
+                        </div>)
+                    })
+                }
             </div>
         </div >
     )
