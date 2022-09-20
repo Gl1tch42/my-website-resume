@@ -34,7 +34,7 @@ export default function Resume() {
                 <div className="first-txt">
                     ABOUT.ME
                 </div>
-                <div className="regular-txt">I'm Jean Michel I'm 22 years old, I'm starting in the IT area, I've been working since 2020 counting on time from my internships, I'm still deciding what kind of professional I'll be and I've grown a lot in this journey in knowledge and in technologies and structures essentials, computing is a journey that we don't stop studying, I always want to be an excellent team member.</div>
+                <div className="regular-txt">My name is Jean Michel, I'm starting in the IT area, I've been working since 2020 counting the time from my internships, I'm still deciding what kind of professional I'll be and I've grown a lot in this journey in knowledge and in technologies and structures essentials, programming is a journey that we don't stop studying, I always want to be an excellent team member.</div>
                 <hr className="hr1"></hr>
 
                 <div className="education-title">

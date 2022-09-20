@@ -25,6 +25,11 @@
     /* height: 5.45em; */
 }
 
+.email {
+    width: 1em;
+    height: 1em;
+}
+
 .name {
     margin-top: 1em;
     font-size: 28px;
