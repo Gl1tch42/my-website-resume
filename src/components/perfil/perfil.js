@@ -30,13 +30,13 @@ export default function Perfil() {
                     <img src={email} className="contact-icons" />
                 </a> */}
                 
-                <img src={email}  className="contact-icons" />
+                <img src={email}  className="contact-icons" alt="email" />
 
-                <img src={linkedin} onClick={() => openInNewTab('https://www.linkedin.com/in/jean-michel-fernandes-carvalho-5682a8153/?locale=en_US')} className="contact-icons" />
+                <img src={linkedin} onClick={() => openInNewTab('https://www.linkedin.com/in/jean-michel-fernandes-carvalho-5682a8153/?locale=en_US')} className="contact-icons" alt="linkedin" />
 
-                <img src={git} onClick={() => openInNewTab('https://github.com/Gl1tch42')} className="contact-icons" />
+                <img src={git} onClick={() => openInNewTab('https://github.com/Gl1tch42')} className="contact-icons" alt="git" />
 
-                <img src={insta} onClick={() => openInNewTab('https://www.instagram.com/jeanmichelfc/')} className="contact-icons" />
+                <img src={insta} onClick={() => openInNewTab('https://www.instagram.com/jeanmichelfc/')} className="contact-icons" alt="insta" />
             </div>
         </div>
     )
