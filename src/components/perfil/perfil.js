@@ -11,9 +11,9 @@ const openInNewTab = url => {
     window.open(url, '_blank', 'noopener,noreferrer');
 };
 
-const openEmai = url => {
-    window.location.href = url;
-};
+// const openEmai = url => {
+//     window.location.href = url;
+// };
 
 export default function Perfil() {
     return (
@@ -30,7 +30,7 @@ export default function Perfil() {
                     <img src={email} className="contact-icons" />
                 </a> */}
                 
-                <img src={email} href="mailto:michelfc42@gmail.com"  className="contact-icons" />
+                <img src={email}  className="contact-icons" />
 
                 <img src={linkedin} onClick={() => openInNewTab('https://www.linkedin.com/in/jean-michel-fernandes-carvalho-5682a8153/?locale=en_US')} className="contact-icons" />
 
